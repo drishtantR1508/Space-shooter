@@ -1,0 +1,4 @@
+echo "Lets Invade Space !!!"
+cd /usr/bin/space/Space-shooter
+python3 Space_Invader.py
+cd -
