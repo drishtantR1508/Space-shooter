@@ -11,3 +11,6 @@ Make install.sh script executable and then Run it with sudo
 `sudo chmod +x install.sh`
 `sudo ./install.sh`
 
+Finally You can run game by using `space-invader` in terminal!
+
+Happy Gaming!!!
