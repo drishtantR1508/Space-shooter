@@ -1,9 +1,6 @@
 # Space-shooter
 
-Install dependencies.
+Make install.sh script executable and then Run it with sudo 
 
-`pip install pygame`
-
-Then open the cloned folder and run : 
-
-`python Space_Invader.py`
+`sudo chmod +x install.sh`
+`sudo ./install.sh`
