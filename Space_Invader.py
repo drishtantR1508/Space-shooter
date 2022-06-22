@@ -86,7 +86,7 @@ while running:# note every functionality or event  will be written inside this w
 				playerY_change+=4.5
 
 			if event.key==pg.K_SPACE:
-				if bullet_state is "ready":
+				if bullet_state == "ready":
 
 				    bulletX=playerX
 				    fire(bulletX,bulletY)
@@ -142,7 +142,7 @@ while running:# note every functionality or event  will be written inside this w
 	if bulletY<=0:
 		bulletY=480
 		bullet_state="ready"
-	if bullet_state is "fire":
+	if bullet_state == "fire":
 		fire(bulletX,bulletY)
 		bulletY-=bulletY_change
 	
